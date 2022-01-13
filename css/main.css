@@ -8,3 +8,15 @@ button {
     border-radius: 20px;
     font-size: 1.2em;
 }
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: green;
+}
+
+.third {
+    background-color: blue;
+}
