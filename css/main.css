@@ -13,8 +13,9 @@ section {
 button {
     height: 50px;
     width: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 1.2em;
+    margin: 0 10px;
 }
 
 .first {

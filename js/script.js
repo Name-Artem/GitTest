@@ -7,15 +7,15 @@ const passwordCheckbox = document.querySelector('.password-checkbox');
 
 
 first.onclick = function () {
-    console.log ('work');
+    alert ('This is not the button you are looking for!');
 }
 
 second.onclick = function () {
-    console.log ('good');
+    confirm ('Do you think this is a good button?');
 }
 
 third.onclick = function () {
-    console.log ('fine');
+    prompt ('Which button would you like?');
 }
 
 passwordCheckbox.onclick = function(){
