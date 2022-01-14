@@ -2,6 +2,14 @@ body {
     background-color: rgb(61, 45, 119);
 }
 
+section {
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
 button {
     height: 50px;
     width: 100px;
@@ -20,3 +28,5 @@ button {
 .third {
     background-color: blue;
 }
+
+
