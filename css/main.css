@@ -1,5 +1,7 @@
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: rgb(61, 45, 119);
 }
 
@@ -9,6 +11,19 @@ section {
     margin: 0 auto;
     padding-bottom: 50px;
     justify-content: center;
+}
+
+.header {
+    flex-direction: column;
+    align-items: center;
+    color: blanchedalmond;
+}
+
+.menu {
+    background-color: blue;
+    border: 3px solid rgb(53, 184, 27);
+    border-radius: 10px;
+    color: cornsilk;
 }
 
 button {
@@ -34,5 +49,24 @@ button {
 .submit {
    display: flex;
    justify-content: space-between;
+}
+
+section.hidden-block {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+    opacity: 0.9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 

@@ -3,8 +3,18 @@ const second = document.querySelector('.second');
 const third = document.querySelector('.third');
 const passwordField = document.querySelector('.password-field');
 const passwordCheckbox = document.querySelector('.password-checkbox');
+const close = document.querySelector('.close');
+const hiddenBlock = document.querySelector('.hidden-block');
+const menu = document.querySelector('.menu');
 
 
+close.onclick = function () {
+    hiddenBlock.style.display = 'none';
+}
+ 
+menu.onclick = function () {
+    hiddenBlock.style.display = 'flex';
+}
 
 first.onclick = function () {
     alert ('This is not the button you are looking for!');
@@ -25,3 +35,4 @@ passwordCheckbox.onclick = function(){
         passwordField.type = 'password';
     }
 }   
+
