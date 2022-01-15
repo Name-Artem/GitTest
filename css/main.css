@@ -64,9 +64,25 @@ section.hidden-block {
     left: 0;
 }
 
-.close {
+.closed {
     position: absolute;
+    color: rgb(255, 255, 255);
     top: 40px;
     right: 40px;
 }
 
+ul {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 48px;
+}
+
+h2 {
+    line-height: 0%; 
+ }
+
+ li {
+     list-style-type: none;
+ }

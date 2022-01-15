@@ -3,12 +3,12 @@ const second = document.querySelector('.second');
 const third = document.querySelector('.third');
 const passwordField = document.querySelector('.password-field');
 const passwordCheckbox = document.querySelector('.password-checkbox');
-const close = document.querySelector('.close');
+const closed = document.querySelector('.closed');
 const hiddenBlock = document.querySelector('.hidden-block');
 const menu = document.querySelector('.menu');
 
 
-close.onclick = function () {
+closed.onclick = function () {
     hiddenBlock.style.display = 'none';
 }
  
