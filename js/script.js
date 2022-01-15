@@ -8,10 +8,32 @@ const hiddenBlock = document.querySelector('.hidden-block');
 const menu = document.querySelector('.menu');
 
 
+closed.addEventListener('mouseover', changeover);
+closed.addEventListener('mouseout', changeout);
+
+menu.addEventListener('mouseover', changeover);
+menu.addEventListener('mouseout', changeout);
+
+function changeover () {
+    this.style.height = 55 + 'px';
+}
+
+function changeout () {
+    this.style.height = '';
+}
+
+// closed.onmouseover = function () {
+//     closed.style.height = 55 + 'px';
+// }
+
+// closed.onmouseout = function () {
+//     closed.style.height = '';
+// }
+
 closed.onclick = function () {
     hiddenBlock.style.display = 'none';
 }
- 
+
 menu.onclick = function () {
     hiddenBlock.style.display = 'flex';
 }

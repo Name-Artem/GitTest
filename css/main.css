@@ -71,12 +71,20 @@ section.hidden-block {
     right: 40px;
 }
 
+nav {
+    display: flex;
+}
+
 ul {
     display: flex;
     color: rgb(255, 255, 255);
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 48px;
+}
+
+li {
+    align-self: center;
 }
 
 h2 {
