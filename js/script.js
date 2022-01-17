@@ -11,8 +11,8 @@ const menu = document.querySelector('.menu');
 closed.addEventListener('mouseover', changeover);
 closed.addEventListener('mouseout', changeout);
 
-menu.addEventListener('mouseover', changeover);
-menu.addEventListener('mouseout', changeout);
+// menu.addEventListener('mouseover', changeover);
+// menu.addEventListener('mouseout', changeout);
 
 function changeover () {
     this.style.height = 55 + 'px';

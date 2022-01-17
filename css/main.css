@@ -26,12 +26,21 @@ section {
     color: cornsilk;
 }
 
+.menu:hover {
+    background-color: rgb(128, 128, 230);
+    border: 3px solid rgb(18, 66, 9);
+}
+
 button {
     height: 50px;
     width: 100px;
     border-radius: 10px;
     font-size: 1.2em;
     margin: 0 10px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
 }
 
 .first {
@@ -44,6 +53,12 @@ button {
 
 .third {
     background-color: blue;
+}
+
+
+input:hover {
+    /* border: 2px ridge blue; */
+    outline: 3px solid rgb(170, 170, 170)
 }
 
 .submit {
@@ -64,6 +79,14 @@ section.hidden-block {
     left: 0;
 }
 
+.heading-menu{
+    margin-top: 8%;
+    position: absolute;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+
+}
+
 .closed {
     position: absolute;
     color: rgb(255, 255, 255);
@@ -72,7 +95,9 @@ section.hidden-block {
 }
 
 nav {
+    margin-top: 8%;
     display: flex;
+
 }
 
 ul {
@@ -81,10 +106,12 @@ ul {
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 48px;
+    padding: 0;
+    
 }
 
-li {
-    align-self: center;
+li:hover {
+    color:rgb(255, 4, 4);
 }
 
 h2 {
